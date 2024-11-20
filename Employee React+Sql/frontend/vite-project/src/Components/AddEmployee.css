@@ -1,0 +1,29 @@
+/* Add these styles to a CSS file like AddEmployee.css */
+
+img.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fits well inside the circle */
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 10px; /* Adds rounded corners to form fields */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    border-radius: 10px; /* Rounded button */
+    padding: 10px;
+  }
+  
+  .container {
+    max-width: 600px; /* Ensures the form has a maximum width */
+    margin-top: 50px; /* Add some spacing from the top */
+  }
+  
